@@ -32,9 +32,15 @@ body{
 
 .icon-parent p {
     font-size: 43px;
+    margin-top: 20px;
 }
 
-
+*::-webkit-scrollbar{
+  display: none;
+}
+*{
+  scrollbar-width: none;
+}
 
 .paddingNow{
   padding-top: 12px !important;
@@ -85,6 +91,13 @@ body{
       color:#2C2F24 !important ;
     }
 
+
+
+    .navbaratag{
+font-size: 19px;
+    margin-top: -13px;
+    font-family: initial;
+    }
 
     @media screen and (max-width:1208px) {
 

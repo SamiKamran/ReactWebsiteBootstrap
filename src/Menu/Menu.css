@@ -3,23 +3,23 @@
     /* Menu  */
 
     .menu{
-        background: rgb(255, 255, 255);
         width: 100%;
         height: auto;
-        padding: 9rem 12px !important;
+        padding: 1rem 12px !important;
+        background: #ffff;
     }
 
     .menu-flex{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 50%;
+        height: auto;
         gap: 30px;
         max-width: 1600px;
         width: 90%;
-        margin: 0 auto !important;
+        margin: 60px auto !important;
         flex-wrap: wrap;
-        padding-top: 5rem !important;
+
   
       }
   

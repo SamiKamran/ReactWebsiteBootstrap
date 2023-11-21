@@ -16,7 +16,7 @@ function NavbarBoot() {
     <div>
 
 
-      <Navbar expand={expand} className=" pb-3 py-3 " style={{background:"#ffff"}}  >
+      <Navbar expand={expand} className="  " style={{background:"#ffff"}}  >
         <Container className='mx-auto w-80 justify-content-between'  >
           <div className="icon-parent">
           <img src={icon} alt="" />
@@ -40,9 +40,10 @@ function NavbarBoot() {
 
 
      
-              <Nav className=" gap-3 paddingNow" >
+              <Nav className=" gap-3 navbaratag paddingNow" >
                 <Link  to='/'>Home</Link>
                 <Link to='/about'>About</Link>
+                <Link to='/ourmenu'>Menu</Link>
                 <Link to='/contact'>Contact</Link>
               
 

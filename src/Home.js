@@ -6,6 +6,7 @@ import Buttons from './components/button/Buttons'
 import Service from './Service/Service'
 import FastFood from './Fastfood/FastFood'
 import CarouselMov from './carousel/Carousel'
+
 function Home() {
   return (
 
@@ -61,6 +62,7 @@ function Home() {
 <Service/>
 <CarouselMov/>
 <FastFood/>
+
     </>
 
   )

@@ -10,16 +10,16 @@ function FastFood() {
     const customContent = (
         <div className="">
             <div className="   imagesNow d-flex gap-3">
-                <img src={CartIcon} alt="CartIcon" />
+                <img className='iconimages' src={CartIcon} alt="CartIcon" />
                 <p>Delivery within 30 minutes</p>
             </div>
     
             <div className="imagesNow d-flex  gap-3">
-                <img src={CartIcon1} alt="CartIcon1" />
+                <img className='iconimages' src={CartIcon1} alt="CartIcon1" />
                 <p>Best Offer & Prices</p>
             </div>
             <div className="imagesNow d-flex  gap-3">
-                <img src={CartIcon3} alt="CartIcon3" />
+                <img  className='iconimages' src={CartIcon3} alt="CartIcon3" />
                 <p>Online Services Available</p>
             </div>
         </div>

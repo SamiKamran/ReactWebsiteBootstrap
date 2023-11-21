@@ -1,9 +1,27 @@
-import React from 'react'
 
 import './index.css'
 import  mapImages from '../img/image 112.png'
 import { Container } from 'react-bootstrap'
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser';
 function Contact() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_yul4jc3', 'template_1bdy4xg', form.current, 'J84A-d6yZA9GRSQcQ')
+        .then((result) => {
+            form.current.reset(); // Clear the form fields
+            window.location.reload(); // Reload the page
+        }, (error) => {
+            console.log(error.text);
+        });
+
+      
+        
+    };
+
   return (
 
 <div className='contact-parent'>
@@ -22,7 +40,7 @@ function Contact() {
 <section className="contact" id="contact">
 
 
-    <form action="">
+    <form ref={form} onSubmit={sendEmail}>
 
 
 
@@ -30,15 +48,15 @@ function Contact() {
     <div className="content-form">
 
     <label >Name</label>
-    <input type="text" placeholder='Enter your Name'  required />
+    <input name='user_name' type="text" placeholder='Enter your Name'  required />
   
     </div>
 
 <div className="content-form">
 
     <label >Email</label>
-    <input type=
-    "email" required  placeholder='Enter your Email'/>
+    <input name='user_email'  type=
+    "email"   required  placeholder='Enter your Email'/>
 </div>
     </div>
 
@@ -57,7 +75,7 @@ function Contact() {
     <label >Messages</label>
     <textarea
     
-          name="messages"
+    name="message"
           rows="4"
           cols="50"
           placeholder="Write Your Messages"
@@ -68,7 +86,7 @@ function Contact() {
 
 
 <div className="inputbox-percent">
-    <button className="btn">
+    <button className="btn" type="submit" value="Send">
         Submit
     </button>
 </div>
@@ -95,3 +113,5 @@ function Contact() {
 }
 
 export default Contact
+
+
