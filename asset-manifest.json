@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/ReactWebsiteBootstrap/static/css/main.76566f15.css",
+    "main.js": "/ReactWebsiteBootstrap/static/js/main.22375727.js",
+    "static/css/31.94f85e25.chunk.css": "/ReactWebsiteBootstrap/static/css/31.94f85e25.chunk.css",
+    "static/js/31.6f224ab5.chunk.js": "/ReactWebsiteBootstrap/static/js/31.6f224ab5.chunk.js",
+    "static/css/276.1f9bd785.chunk.css": "/ReactWebsiteBootstrap/static/css/276.1f9bd785.chunk.css",
+    "static/js/276.1c939668.chunk.js": "/ReactWebsiteBootstrap/static/js/276.1c939668.chunk.js",
+    "static/css/126.093a7328.chunk.css": "/ReactWebsiteBootstrap/static/css/126.093a7328.chunk.css",
+    "static/js/126.f754db51.chunk.js": "/ReactWebsiteBootstrap/static/js/126.f754db51.chunk.js",
+    "static/js/787.28cb0dcd.chunk.js": "/ReactWebsiteBootstrap/static/js/787.28cb0dcd.chunk.js",
+    "static/media/restaurant-interior.jpg": "/ReactWebsiteBootstrap/static/media/restaurant-interior.da3fd7f1c5875d127e1c.jpg",
+    "static/media/Mask group.png": "/ReactWebsiteBootstrap/static/media/Mask group.cf6ae717790afdcfc26c.png",
+    "static/media/image 112.png": "/ReactWebsiteBootstrap/static/media/image 112.761ad31e810a40bb7dbd.png",
+    "static/media/FastFoodimg.png": "/ReactWebsiteBootstrap/static/media/FastFoodimg.417cf4633f1a9d1be3f1.png",
+    "static/media/img.png": "/ReactWebsiteBootstrap/static/media/img.8f5cb51f177d395d08eb.png",
+    "static/media/Aboutimg.png": "/ReactWebsiteBootstrap/static/media/Aboutimg.e6330e322337606e79c6.png",
+    "static/media/kebab-set-table 1.png": "/ReactWebsiteBootstrap/static/media/kebab-set-table 1.82fc7e015d8a7d792949.png",
+    "static/media/group-friends-eating-restaurant 1.png": "/ReactWebsiteBootstrap/static/media/group-friends-eating-restaurant 1.7ae899288094f663be39.png",
+    "static/media/pexels-ella-olsson-1640772 1.png": "/ReactWebsiteBootstrap/static/media/pexels-ella-olsson-1640772 1.4d23d3ae89caf03b450d.png",
+    "static/media/pexels-ash-376464 1.png": "/ReactWebsiteBootstrap/static/media/pexels-ash-376464 1.e06946912f1395c6a841.png",
+    "static/media/eiliv-aceron-d5PbKQJ0Lu8-unsplash 1.png": "/ReactWebsiteBootstrap/static/media/eiliv-aceron-d5PbKQJ0Lu8-unsplash 1.085467e2b785b1cc4a3f.png",
+    "index.html": "/ReactWebsiteBootstrap/index.html",
+    "main.76566f15.css.map": "/ReactWebsiteBootstrap/static/css/main.76566f15.css.map",
+    "main.22375727.js.map": "/ReactWebsiteBootstrap/static/js/main.22375727.js.map",
+    "31.94f85e25.chunk.css.map": "/ReactWebsiteBootstrap/static/css/31.94f85e25.chunk.css.map",
+    "31.6f224ab5.chunk.js.map": "/ReactWebsiteBootstrap/static/js/31.6f224ab5.chunk.js.map",
+    "276.1f9bd785.chunk.css.map": "/ReactWebsiteBootstrap/static/css/276.1f9bd785.chunk.css.map",
+    "276.1c939668.chunk.js.map": "/ReactWebsiteBootstrap/static/js/276.1c939668.chunk.js.map",
+    "126.093a7328.chunk.css.map": "/ReactWebsiteBootstrap/static/css/126.093a7328.chunk.css.map",
+    "126.f754db51.chunk.js.map": "/ReactWebsiteBootstrap/static/js/126.f754db51.chunk.js.map",
+    "787.28cb0dcd.chunk.js.map": "/ReactWebsiteBootstrap/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76566f15.css",
+    "static/js/main.22375727.js"
+  ]
+}
