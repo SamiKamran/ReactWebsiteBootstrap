@@ -15,7 +15,7 @@ function Home() {
       <Container className='containerone'>
       <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"850px" }}>
 
-      <h1  className='home-tag' style={{fontSize:"100px",  fontFamily: 'Playfair Display ', }}>Best food for <br/> your taste</h1>
+      <h1  className='home-tag' style={{fontSize:"100px",  fontFamily: 'Playfair Display ',  }}>Best food for <br/> your taste</h1>
 
       <p className='text-color' style={{fontSize:"20px",}}>Discover delectable cuisine and unforgettable moments <br/> in our welcoming, culinary haven.</p>
 
